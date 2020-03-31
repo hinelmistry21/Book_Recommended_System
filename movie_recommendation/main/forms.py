@@ -1,7 +1,7 @@
 from django import forms
 
 class collab(forms.Form):
-    u_id = forms.IntegerField(label="User ID :", required=True)
+    u_id = forms.IntegerField(label="Input User ID  :", required=True)
     no_of_movie = forms.IntegerField(label="No. of movies :", required=True)
 
 
